@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catalog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w3" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w4" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w5" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w6" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w3" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w4" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w5" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/w6" />
+    </GridLayout>
+    </RelativeLayout>
+</ScrollView>
+
